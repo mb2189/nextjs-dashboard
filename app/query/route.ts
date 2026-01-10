@@ -1,8 +1,9 @@
-// import postgres from 'postgres';
-
-// const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
+// import { sql } from '../../src/db/index';
 
 // async function listInvoices() {
+//  if (!sql) {
+//    throw new Error('DATABASE_URL must be set');
+//  }
 // 	const data = await sql`
 //     SELECT invoices.amount, customers.name
 //     FROM invoices
