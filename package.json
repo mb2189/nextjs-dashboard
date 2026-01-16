@@ -4,6 +4,7 @@
     "build": "next build",
     "dev": "next dev --turbopack",
     "start": "next start",
+    "lint": "eslint .",
     "pg:build": "docker compose build postgres",
     "pg:start": "docker compose up -d postgres",
     "pg:stop": "docker compose stop postgres",
@@ -33,6 +34,8 @@
     "@types/node": "22.10.7",
     "@types/react": "19.0.7",
     "@types/react-dom": "19.0.3",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "^16.1.2",
     "tsx": "^4.21.0"
   },
   "pnpm": {
